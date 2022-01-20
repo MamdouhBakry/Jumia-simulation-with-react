@@ -8,28 +8,15 @@ const accessToken = localStorage.getItem("token");
 //   url: "http://localhost:5000/api/v1"
 //   https://jumia-apis.herokuapp.com/api/v1
 
-const lang = localStorage.getItem('lang') || 'en';
+const lang = localStorage.getItem("lang") || "en";
 // axios.defaults.headers.common['Accept-Language'] = lang;
 export const axiosInstance = axios.create({
-  baseURL:"http://localhost:5000/api/v1",
+  baseURL: "https://jumia-simiulation-site.herokuapp.com/api/v1",
   headers: {
     authorization: `Bearer ${accessToken}`,
-    'Accept-Language': `${lang}`
+    "Accept-Language": `${lang}`,
   },
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // interceptor
 // axiosInstance.interceptors.request.use(
