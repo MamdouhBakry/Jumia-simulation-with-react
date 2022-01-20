@@ -1,0 +1,56 @@
+$spancolor:#f68b1e;
+// body {
+//     font-family: $FontFamily;
+//     background-color: #F5F5F5;
+    
+// }
+// 
+.navImg{
+    background-color: #A42924;
+}
+// .stuck {position: fixed;
+// top:0;
+// left:0}
+
+// .stuck {
+// position: sticky;
+// top: 0;
+// left: 0;
+// width: 100%;
+
+// }
+.header-underNav {
+    background-color: white;
+    // margin-top: 5rem !important;
+     top: 5rem;
+    left: 0;
+     z-index: 1030;
+}
+
+section.main-sectionFirst{
+    margin-top:0px !important;
+}
+
+.socialIcon:hover {
+    color: $spancolor;
+}
+// .myaccount-img a img{
+//     width: 16%;
+// }
+// .myaccount-img a img:hover{ 
+//    width: 16.5%;
+    
+//     box-shadow:10px 10px 10px 0px #d8d7d7 ;
+
+// }
+.myaccount-a li:hover{
+    background-color: #F5F5F5;
+}
+.myaccount-logout:hover{
+    background-color:#ffc284 ;
+    border-radius: 5px;
+}
+.HomePage-img .HomePage-imgElement:hover{
+    transform: scale(1.04);
+    box-shadow:6px 6px 10px 0px #d8d7d7  ,-6px -6px 5px 0px #d8d7d7 ;
+ }

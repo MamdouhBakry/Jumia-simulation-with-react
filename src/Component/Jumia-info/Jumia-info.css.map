@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,IAAI;CAId;;AALD,AAEI,WAFO,AAEN,MAAM,CAAA;EACH,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "Jumia-info.scss"
+    ],
+    "names": [],
+    "file": "Jumia-info.css"
+}

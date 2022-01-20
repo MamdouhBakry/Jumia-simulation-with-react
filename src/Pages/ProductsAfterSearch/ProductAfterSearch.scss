@@ -1,0 +1,19 @@
+.ProductPage-img > *:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 5px 0px #d8d7d7, -1px -1px 5px 0px #d8d7d7;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -webkit-transform: scale(1.02);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+  }
+  .Filter-img:hover .hoverimg {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 20px 0px #d8d7d7, -1px -1px 5px 0px #d8d7d7;
+  }
+  

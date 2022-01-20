@@ -1,0 +1,26 @@
+ .HomePage-imgElement:hover{
+    transform: scale(1.04);
+    box-shadow:1px 1px 5px 0px #d8d7d7 ,-1px -1px 5px 0px #d8d7d7;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+ }
+ 
+  .HomePage-imgElementNON:hover{
+    transform: scale(1.04);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+ }
+ 
+ 
+ 
+ .product-card-discount {
+     position: absolute;
+     top: 1rem;
+     right:1rem;
+ }

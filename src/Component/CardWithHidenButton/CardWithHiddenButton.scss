@@ -1,0 +1,19 @@
+// .cardStyle .hiddenBtn {
+//   visibility: hidden !important;
+// }
+// .Filter-img:hover .hoverimg {
+//   transform: scale(1.01);
+//   box-shadow: 2px 2px 20px 0px #d8d7d7, -1px -1px 5px 0px #d8d7d7;
+// }
+.cardStyle:hover .hiddenBtn {
+  visibility: visible !important;
+}
+.cardStyle:hover {
+  transform: scale(1.04);
+  box-shadow: 1px 1px 5px 0px #d8d7d7, -1px -1px 5px 0px #d8d7d7;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+}

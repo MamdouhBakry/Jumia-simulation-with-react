@@ -1,0 +1,60 @@
+.footerOne {
+  background-color: #E0E0E0;
+}
+
+.footerOne .text-1 {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+}
+
+.footerOne .text-2 {
+  color: #555555;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footerOne .text-3 {
+  color: #555555;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footerOne .text-5 {
+  color: #333333;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.footerOne .text-6 {
+  color: #333333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.footerOne i {
+  color: #555555;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.footerOne i:hover {
+  color: #FF9800;
+}
+
+.formBtn {
+  background-color: #FF9800;
+}
+
+.formBtn:hover {
+  background-color: #FF9800;
+}
+
+.footer-heading {
+  color: #FF9800;
+}
+/*# sourceMappingURL=Footer2.css.map */

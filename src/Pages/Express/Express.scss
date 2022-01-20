@@ -1,0 +1,184 @@
+$FontFamily:Roboto,
+-apple-system,
+BlinkMacSystemFont,
+Segoe UI,
+Helvetica Neue,
+Arial,
+sans-serif;
+$spancolor:#f68b1e;
+body {
+    font-family: $FontFamily;
+
+}
+//
+.navImg{
+    background-color: #A42924;
+}
+
+.header-underNav {
+    background-color: white;
+     top: 5rem;
+    left: 0;
+     z-index: 1030;
+}
+
+.socialIcon:hover {
+    color: $spancolor;
+}
+// main.main-sectionFirst{
+//     // margin-top:180px !important;
+// }
+
+
+
+ /*===================== nav-Express==============*/
+ section.express-nav-section{
+    background-color:#E0E0E0 ;
+}
+
+section.express-nav-section .but{
+    background-color: white;
+    border: 1px solid gray;
+}
+
+section.express-nav-section button span .arrow{
+    color:black;
+}
+
+ /*=====================FAQ Section===============*/
+
+ .-faq > .-content .c-faq--active .c-faq__title {
+    color: #ff9900;
+    }
+  
+     .-faq > .-content .c-faq__answer {
+      margin-top: -40%;
+      transition: all 0.2s;
+      font-size: 0.9em;
+      color: #505050;
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      -o-transition: all 0.2s;
+  }
+  
+     .-faq > .-content .c-faq--active .c-faq__answer {
+      opacity: 1;
+      position: relative;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      border: 1px solid #f1f2f3;
+      border-top: 1px solid #ff9900;
+      padding: 10px;
+      font-size: 0.8em;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+  }
+  
+  
+  
+    @media (min-width: 760px) {
+      .-faq > .-content .c-faqs {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+      }
+      }
+  
+      @media (max-width: 580px){
+         .c-faqs {
+              display: none;
+          }
+      }
+       .-faq > .-content .c-faq {
+        margin-top: 15px;
+        margin-bottom: 15px;
+       }
+  
+       .-faq > .-content .c-faq .c-faq__title {
+      width: 50%;
+      display: inline-block;
+      cursor: pointer;
+      }
+  
+      .-faq > .-content .c-faq .c-faq__answer {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        width: 50%;
+        border-left-color: #ff9900;
+        border-top-color: #f1f2f3;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+  }
+   
+
+/*=========================first footer================*/
+
+
+.footerOne{
+    background-color: #E0E0E0;
+
+    .text-1{
+        color:#555555;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15.4px;
+
+    }
+
+    .text-2{
+        color:#555555;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .text-3{
+        color:#555555;
+        font-size: 11px;
+        line-height: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+    }
+    .text-5{
+        color:#333333;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+    }
+    .text-6{
+        color:#333333;
+        font-size: 13px;
+        line-height: 18px;
+        
+        
+    }
+    i{
+        color:#555555;
+        font-size: 30px;
+        padding-left: 10px;
+        &:hover{
+            color:#FF9800
+        }
+    }
+}
+.formBtn{
+    background-color: #FF9800;
+    &:hover{
+        background-color: #FF9800;
+    }
+    
+}
+.socialIcon:hover {
+    color: $spancolor;
+}
+
